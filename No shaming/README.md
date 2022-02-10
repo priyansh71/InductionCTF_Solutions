@@ -5,7 +5,7 @@
 - We visit the Network tab and check the headers.
 - A header named hint says something about robots.
 - Searching about robots on the server makes us go at /robots.txt
-- We see ```coo-KEY``. Looks like a subtle **key** reference from the mainpage comments.
+- We see ```coo-KEY```. Looks like a subtle **key** reference from the mainpage comments.
 - Sounds liek cookie ngl.
 - Cookiess, damn? We check cookies of this page again and see a cookie named KEY.
 - We use this key to login but it asks us to inspect again.
