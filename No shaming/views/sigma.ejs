@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- basic -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- mobile metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <!-- site metas -->
+    </head>
+    <!-- body -->
+    <body style="overflow-y: hidden">
+        <style>
+            .head-top {
+                background: url(images/banner1.png);
+                width: 100%;
+                height: 100vh;
+                background-repeat: no-repeat;
+                background-position: center center;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                color: white;
+                position: absolute;
+                top: 14%;
+                left: 6%;
+                font-family: monospace;
+                font-size: 3.8em;
+                padding: 10px;
+            }
+
+            h2 {
+                color: white;
+                position: absolute;
+                top: 50%;
+                left: 6%;
+                font-family: monospace;
+                font-size: 3.8em;
+                padding: 10px;
+            }
+        </style>
+
+        <div class="head-top">
+            <section class="banner_main">
+                <% if(stuff === "I have the Oedipus complex."){ %>
+
+                <h2>BITSCTF{c0ns7r1c7_my_a1r_fl0w,F4th3r}</h2>
+                <% } else if(stuff === "I have the Oedipus complex") { %>
+                    <h2>BITSCTF{c0ns7r1c7_my_a1r_fl0w,F4th3r}</h2>
+                <% } else if(stuff === "Oedipus complex") { %>
+                    <h1>You gotta do some better inspection of the pages ngl</h1>
+                <% } else { %>
+                <h1>Don't be ashamed of who you are.</h1>
+                <center>
+                    <iframe
+                        style="margin: 250px 100px"
+                        width="600"
+                        height="400"
+                        src="https://www.youtube.com/embed/rS0EVuDyH1E"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+                </center>
+                <% } %>
+            </section>
+        </div>
+    </body>
+</html>
