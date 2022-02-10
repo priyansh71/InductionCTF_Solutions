@@ -1,0 +1,6 @@
+Alice and Bob are on a mission which requires a dual-login inside 10 minutes, othwewise the system melts down and the administrators would be able to track them.
+Eve got access the Alice-Bob channel which had a leak in it and retrieved some information.
+She heard them and wrote some code to get the secret and log into the system before Bob can.
+Both Bob and Eve have 57 seconds to log in to the system as everything would be reset the moment clock strikes 12.
+
+Can you finish Eve's script to get the secret flag?

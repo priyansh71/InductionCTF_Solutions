@@ -1,0 +1,14 @@
+Alice [23:50:00] : I am in. I'll send you my data.
+Alice [23:53:45] : P  is 16787 and G is 2. Wait for x.
+Alice [23:56:02] : It isn't working, I can't generate x
+Bob [23:56:29] : Use the power function with your private key!
+Alice [23:56:53] : I didn't prepare any of the keys beforehand!
+Bob [23:57:08] : Man you're compromising the mission!
+Alice [23:57:15] : Stop whining, I thought it would be easy to implement but it's not working
+Alice [23:57:29] : What do we do now!?
+Bob [23:57:46] : Let's just choose small privates
+Alice [23:57:56] : That's insecure
+Bob [23:58:01] : Just do it. I'll get locked out of the system! 
+Bob [28:58:11] : We have no time. Encrypt it using a hexstring and send me the hex
+Alice [23:58:18] : Wait
+Alice [23:59:03] : 6026763c613b64141507121c1130495c5b1c7d18111d1130521d115815167d18115b4912
