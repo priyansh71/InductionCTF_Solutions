@@ -1,0 +1,60 @@
+
+.box {
+    display: inline-block;
+    width: 210px;
+    height: 210px;
+    transition: transform .2s;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    margin: 0 auto;
+    
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box:hover {
+    transform: scale(0.8); 
+  }
+
+  
+
+  .BITSCTF {
+    background: #424954;                                
+    
+    }
+  
+  .I {
+    background: #534354;
+  }
+  
+  .aint {
+    background: #467b63;
+  }
+  
+  .really {
+    background: #6f4c30;
+  }
+
+  .what {
+    background: #75725f;
+  }
+
+  .you {
+    background: #633064;
+  }
+
+  .looking {
+    background: #33645f;
+  }
+
+  .for {
+    background: #6c3166;
+  }
+
+  .unless {
+    background: #657d;
+  }
+
