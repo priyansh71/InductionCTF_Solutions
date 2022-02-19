@@ -1,0 +1,11 @@
+Payback Bitches: It was a flag hidden in the image. 
+Solution: Open the file using notepad,and scroll to the bottom. U’ll find the flag there!
+
+Keep Going: It was a flag hidden in audio
+Solution: Put the audio in any spectral analyser. You’ll retrieve the flag.
+
+Substitution Teacher: It was a question based on Substitution Cipher. U needed the key and the ciphertext to solve it.
+Solution: The cipher text was available in the question.  The key was given in binary in the text file. U had to convert it to a string, and put both the cipher and key in the python program given.
+
+808 Mafia: It was a question based on Play Fair cipher. The lyrics were of a song called ‘Play Fair’
+Solution: The 25 letter string was the key. The 14 letter string was the cipher key. Decode it. After getting the plaintext, wrap it in the flag format. 
